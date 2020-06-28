@@ -3,6 +3,11 @@ server:
 spring:
   application:
     name: usian-item-web
+  rabbitmq:
+    host: 192.168.80.139
+    username: admin
+    password: 1111
+    virtual-host: /
 eureka:
   client:
     service-url:
